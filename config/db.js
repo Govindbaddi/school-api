@@ -16,5 +16,5 @@ connection.connect((err) => {
   }
 });
 
-//mysql://root:FisXBIocNSdadwdCpKVafUFPTuUkOQPx@maglev.proxy.rlwy.net:43327/railway
+
 module.exports = connection;

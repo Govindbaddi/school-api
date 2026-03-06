@@ -8,7 +8,7 @@ const router = require("./routes/schoolRouter");
 app.use(express.json())
 app.use("/api",router)
 app.use(bodyParser.json());
-const PORT=process.env.PORT;
+const PORT=process.env.PORT || 5000;
 
 require("./config/db")
 app.listen(PORT,()=>{
